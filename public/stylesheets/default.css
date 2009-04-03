@@ -1,0 +1,38 @@
+@import url("reset.css");
+
+body
+{
+  font: 18px/24px "Tahoma", "Geneva", sans-serif;
+}
+
+#container
+{
+  margin: 8px 32px;
+  padding: 0;
+}
+
+div.header
+{
+  font: 32px "Georgia", serif;
+  border: 1px solid #797;
+}
+div.header h1
+{
+  padding: 11px;
+  margin: 2px;
+  background-color: #9a9;
+  color: #222;
+  text-align: center;
+}
+
+h2
+{
+  margin: 12px 0;
+  color: #797;
+}
+p + p
+{
+  margin: 24px 0 0 0;
+}
+
+/* @import url("grid.css"); */
